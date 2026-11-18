@@ -1,0 +1,18 @@
+{
+  "classifier": {
+    "point_accuracy": 0.9068371607515657,
+    "strict_adjacent_continuity": 0.9412010342271145,
+    "sampled_sequence_edit_similarity": 0.715436169449798,
+    "full_route_edit_similarity": 0.6525216808918002,
+    "route_arc_f1": 0.9016992829144309,
+    "decoder_seconds": 0.0
+  },
+  "hmm": {
+    "point_accuracy": 0.9170668058455115,
+    "strict_adjacent_continuity": 0.9798408604908099,
+    "sampled_sequence_edit_similarity": 0.909986622570176,
+    "full_route_edit_similarity": 0.8375570335316418,
+    "route_arc_f1": 0.9323694548793584,
+    "decoder_seconds": 8.130608600004052
+  }
+}
