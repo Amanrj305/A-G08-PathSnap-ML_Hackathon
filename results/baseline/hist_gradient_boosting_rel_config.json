@@ -1,0 +1,39 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "relativefeatures",
+      "RelativeFeatures()"
+    ],
+    [
+      "histgradientboostingclassifier",
+      "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=1.0,\n                               learning_rate=0.08, max_iter=400,\n                               max_leaf_nodes=63, min_samples_leaf=40,\n                               random_state=35218)"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "relativefeatures": "RelativeFeatures()",
+  "histgradientboostingclassifier": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=1.0,\n                               learning_rate=0.08, max_iter=400,\n                               max_leaf_nodes=63, min_samples_leaf=40,\n                               random_state=35218)",
+  "relativefeatures__k": 8,
+  "histgradientboostingclassifier__categorical_features": "from_dtype",
+  "histgradientboostingclassifier__class_weight": null,
+  "histgradientboostingclassifier__early_stopping": false,
+  "histgradientboostingclassifier__interaction_cst": null,
+  "histgradientboostingclassifier__l2_regularization": 1.0,
+  "histgradientboostingclassifier__learning_rate": 0.08,
+  "histgradientboostingclassifier__loss": "log_loss",
+  "histgradientboostingclassifier__max_bins": 255,
+  "histgradientboostingclassifier__max_depth": null,
+  "histgradientboostingclassifier__max_features": 1.0,
+  "histgradientboostingclassifier__max_iter": 400,
+  "histgradientboostingclassifier__max_leaf_nodes": 63,
+  "histgradientboostingclassifier__min_samples_leaf": 40,
+  "histgradientboostingclassifier__monotonic_cst": null,
+  "histgradientboostingclassifier__n_iter_no_change": 10,
+  "histgradientboostingclassifier__random_state": 35218,
+  "histgradientboostingclassifier__scoring": "loss",
+  "histgradientboostingclassifier__tol": 1e-07,
+  "histgradientboostingclassifier__validation_fraction": 0.1,
+  "histgradientboostingclassifier__verbose": 0,
+  "histgradientboostingclassifier__warm_start": false
+}

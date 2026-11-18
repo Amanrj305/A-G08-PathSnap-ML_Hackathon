@@ -1,0 +1,62 @@
+{
+  "data": "C:\\Users\\aashi\\Desktop\\Claude_Pro\\PathSnap\\data\\Student folder",
+  "cache": "C:\\Users\\aashi\\Desktop\\Claude_Pro\\PathSnap\\my_runs\\run_20261118_1147\\cache",
+  "k": 8,
+  "max_obs_per_trip": 600,
+  "folds": 3,
+  "models": [
+    "logistic",
+    "gaussian_nb",
+    "id3",
+    "random_forest",
+    "gradient_boosting",
+    "knn",
+    "extra_trees",
+    "hist_gradient_boosting",
+    "mlp",
+    "random_forest_rel",
+    "hist_gradient_boosting_rel",
+    "mlp_rel"
+  ],
+  "exclude_trips": [
+    "00000033",
+    "00000054"
+  ],
+  "output": "C:\\Users\\aashi\\Desktop\\Claude_Pro\\PathSnap\\my_runs\\final\\results\\baseline",
+  "seed": 35218,
+  "observations": 45624,
+  "candidate_rows": 364992,
+  "train_trip_count": 78,
+  "feature_names": [
+    "log_distance_m",
+    "distance_m_clipped",
+    "distance_rank",
+    "distance_gap_m",
+    "heading_cos_5",
+    "heading_cos_15",
+    "motion_5_m",
+    "speed_5_mps",
+    "log_segment_length_m",
+    "projection_fraction",
+    "log_distance_start_m",
+    "log_distance_end_m",
+    "forward_speed_mps",
+    "log_prev_segment_distance",
+    "log_next_segment_distance",
+    "start_outdegree",
+    "end_outdegree",
+    "log_dt"
+  ],
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "pandas": "3.0.6"
+  },
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10",
+  "device": "CPU",
+  "primary_selection_metric": "mean group-CV observation top-1 accuracy",
+  "label_warning": "Point labels are derived by monotone alignment, not supplied point annotations."
+}

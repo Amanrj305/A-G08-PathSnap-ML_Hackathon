@@ -1,0 +1,7 @@
+{
+  "alpha": 1.0,
+  "max_depth": 8,
+  "min_gain": 1e-05,
+  "min_samples_split": 100,
+  "n_bins": 6
+}

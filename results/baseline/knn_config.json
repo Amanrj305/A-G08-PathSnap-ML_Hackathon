@@ -1,0 +1,28 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "standardscaler",
+      "StandardScaler()"
+    ],
+    [
+      "kneighborsclassifier",
+      "KNeighborsClassifier(algorithm='kd_tree', leaf_size=40, n_jobs=6,\n                     n_neighbors=15, weights='distance')"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "standardscaler": "StandardScaler()",
+  "kneighborsclassifier": "KNeighborsClassifier(algorithm='kd_tree', leaf_size=40, n_jobs=6,\n                     n_neighbors=15, weights='distance')",
+  "standardscaler__copy": true,
+  "standardscaler__with_mean": true,
+  "standardscaler__with_std": true,
+  "kneighborsclassifier__algorithm": "kd_tree",
+  "kneighborsclassifier__leaf_size": 40,
+  "kneighborsclassifier__metric": "minkowski",
+  "kneighborsclassifier__metric_params": null,
+  "kneighborsclassifier__n_jobs": 6,
+  "kneighborsclassifier__n_neighbors": 15,
+  "kneighborsclassifier__p": 2,
+  "kneighborsclassifier__weights": "distance"
+}

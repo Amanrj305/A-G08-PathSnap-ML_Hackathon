@@ -1,0 +1,37 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "relativefeatures",
+      "RelativeFeatures()"
+    ],
+    [
+      "randomforestclassifier",
+      "RandomForestClassifier(max_depth=18, min_samples_leaf=12, n_estimators=80,\n                       n_jobs=6, random_state=35218)"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "relativefeatures": "RelativeFeatures()",
+  "randomforestclassifier": "RandomForestClassifier(max_depth=18, min_samples_leaf=12, n_estimators=80,\n                       n_jobs=6, random_state=35218)",
+  "relativefeatures__k": 8,
+  "randomforestclassifier__bootstrap": true,
+  "randomforestclassifier__ccp_alpha": 0.0,
+  "randomforestclassifier__class_weight": null,
+  "randomforestclassifier__criterion": "gini",
+  "randomforestclassifier__max_depth": 18,
+  "randomforestclassifier__max_features": "sqrt",
+  "randomforestclassifier__max_leaf_nodes": null,
+  "randomforestclassifier__max_samples": null,
+  "randomforestclassifier__min_impurity_decrease": 0.0,
+  "randomforestclassifier__min_samples_leaf": 12,
+  "randomforestclassifier__min_samples_split": 2,
+  "randomforestclassifier__min_weight_fraction_leaf": 0.0,
+  "randomforestclassifier__monotonic_cst": null,
+  "randomforestclassifier__n_estimators": 80,
+  "randomforestclassifier__n_jobs": 6,
+  "randomforestclassifier__oob_score": false,
+  "randomforestclassifier__random_state": 35218,
+  "randomforestclassifier__verbose": 0,
+  "randomforestclassifier__warm_start": false
+}

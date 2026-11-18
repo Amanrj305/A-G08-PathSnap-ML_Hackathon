@@ -1,0 +1,62 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "relativefeatures",
+      "RelativeFeatures()"
+    ],
+    [
+      "pipeline",
+      "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('mlpclassifier',\n                 MLPClassifier(batch_size=1024, early_stopping=True,\n                               hidden_layer_sizes=(128, 64), max_iter=80,\n                               n_iter_no_change=8, random_state=35218))])"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "relativefeatures": "RelativeFeatures()",
+  "pipeline": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('mlpclassifier',\n                 MLPClassifier(batch_size=1024, early_stopping=True,\n                               hidden_layer_sizes=(128, 64), max_iter=80,\n                               n_iter_no_change=8, random_state=35218))])",
+  "relativefeatures__k": 8,
+  "pipeline__memory": null,
+  "pipeline__steps": [
+    [
+      "standardscaler",
+      "StandardScaler()"
+    ],
+    [
+      "mlpclassifier",
+      "MLPClassifier(batch_size=1024, early_stopping=True,\n              hidden_layer_sizes=(128, 64), max_iter=80, n_iter_no_change=8,\n              random_state=35218)"
+    ]
+  ],
+  "pipeline__transform_input": null,
+  "pipeline__verbose": false,
+  "pipeline__standardscaler": "StandardScaler()",
+  "pipeline__mlpclassifier": "MLPClassifier(batch_size=1024, early_stopping=True,\n              hidden_layer_sizes=(128, 64), max_iter=80, n_iter_no_change=8,\n              random_state=35218)",
+  "pipeline__standardscaler__copy": true,
+  "pipeline__standardscaler__with_mean": true,
+  "pipeline__standardscaler__with_std": true,
+  "pipeline__mlpclassifier__activation": "relu",
+  "pipeline__mlpclassifier__alpha": 0.0001,
+  "pipeline__mlpclassifier__batch_size": 1024,
+  "pipeline__mlpclassifier__beta_1": 0.9,
+  "pipeline__mlpclassifier__beta_2": 0.999,
+  "pipeline__mlpclassifier__early_stopping": true,
+  "pipeline__mlpclassifier__epsilon": 1e-08,
+  "pipeline__mlpclassifier__hidden_layer_sizes": [
+    128,
+    64
+  ],
+  "pipeline__mlpclassifier__learning_rate": "constant",
+  "pipeline__mlpclassifier__learning_rate_init": 0.001,
+  "pipeline__mlpclassifier__max_fun": 15000,
+  "pipeline__mlpclassifier__max_iter": 80,
+  "pipeline__mlpclassifier__momentum": 0.9,
+  "pipeline__mlpclassifier__n_iter_no_change": 8,
+  "pipeline__mlpclassifier__nesterovs_momentum": true,
+  "pipeline__mlpclassifier__power_t": 0.5,
+  "pipeline__mlpclassifier__random_state": 35218,
+  "pipeline__mlpclassifier__shuffle": true,
+  "pipeline__mlpclassifier__solver": "adam",
+  "pipeline__mlpclassifier__tol": 0.0001,
+  "pipeline__mlpclassifier__validation_fraction": 0.1,
+  "pipeline__mlpclassifier__verbose": false,
+  "pipeline__mlpclassifier__warm_start": false
+}
