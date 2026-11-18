@@ -1,0 +1,26 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "relativefeatures",
+      "RelativeFeatures()"
+    ],
+    [
+      "catboostclassifier",
+      "CatBoostClassifier(allow_writing_files=False, depth=8, iterations=600, l2_leaf_reg=3.0, learning_rate=0.08, random_seed=35218, thread_count=6, verbose=0)"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "relativefeatures": "RelativeFeatures()",
+  "catboostclassifier": "CatBoostClassifier(allow_writing_files=False, depth=8, iterations=600, l2_leaf_reg=3.0, learning_rate=0.08, random_seed=35218, thread_count=6, verbose=0)",
+  "relativefeatures__k": 8,
+  "catboostclassifier__iterations": 600,
+  "catboostclassifier__learning_rate": 0.08,
+  "catboostclassifier__depth": 8,
+  "catboostclassifier__l2_leaf_reg": 3.0,
+  "catboostclassifier__thread_count": 6,
+  "catboostclassifier__random_seed": 35218,
+  "catboostclassifier__verbose": 0,
+  "catboostclassifier__allow_writing_files": false
+}

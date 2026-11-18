@@ -1,0 +1,38 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "relativefeatures",
+      "RelativeFeatures()"
+    ],
+    [
+      "lgbmclassifier",
+      "LGBMClassifier(colsample_bytree=0.8, learning_rate=0.06, n_estimators=500,\n               n_jobs=6, num_leaves=63, random_state=35218, reg_lambda=1.0,\n               subsample=0.8, subsample_freq=1, verbose=-1)"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "relativefeatures": "RelativeFeatures()",
+  "lgbmclassifier": "LGBMClassifier(colsample_bytree=0.8, learning_rate=0.06, n_estimators=500,\n               n_jobs=6, num_leaves=63, random_state=35218, reg_lambda=1.0,\n               subsample=0.8, subsample_freq=1, verbose=-1)",
+  "relativefeatures__k": 8,
+  "lgbmclassifier__boosting_type": "gbdt",
+  "lgbmclassifier__class_weight": null,
+  "lgbmclassifier__colsample_bytree": 0.8,
+  "lgbmclassifier__importance_type": "split",
+  "lgbmclassifier__learning_rate": 0.06,
+  "lgbmclassifier__max_depth": -1,
+  "lgbmclassifier__min_child_samples": 20,
+  "lgbmclassifier__min_child_weight": 0.001,
+  "lgbmclassifier__min_split_gain": 0.0,
+  "lgbmclassifier__n_estimators": 500,
+  "lgbmclassifier__n_jobs": 6,
+  "lgbmclassifier__num_leaves": 63,
+  "lgbmclassifier__objective": null,
+  "lgbmclassifier__random_state": 35218,
+  "lgbmclassifier__reg_alpha": 0.0,
+  "lgbmclassifier__reg_lambda": 1.0,
+  "lgbmclassifier__subsample": 0.8,
+  "lgbmclassifier__subsample_for_bin": 200000,
+  "lgbmclassifier__subsample_freq": 1,
+  "lgbmclassifier__verbose": -1
+}

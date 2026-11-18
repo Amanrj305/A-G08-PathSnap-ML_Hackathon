@@ -1,0 +1,43 @@
+{
+  "model": "hist_gradient_boosting_rel",
+  "exclude_trips": [
+    "00000033",
+    "00000054"
+  ],
+  "trials": 15,
+  "folds": 3,
+  "max_obs_per_trip": 600,
+  "data": "C:\\Users\\aashi\\Desktop\\Claude_Pro\\PathSnap\\data\\Student folder",
+  "cache": "C:\\Users\\aashi\\Desktop\\Claude_Pro\\PathSnap\\my_runs\\run_20261118_1147\\cache",
+  "output": "C:\\Users\\aashi\\Desktop\\Claude_Pro\\PathSnap\\my_runs\\final\\results\\tuning",
+  "seed": 35218,
+  "search_space": {
+    "max_iter": [
+      150,
+      600
+    ],
+    "learning_rate": [
+      0.02,
+      0.2,
+      "log"
+    ],
+    "max_leaf_nodes": [
+      15,
+      127
+    ],
+    "min_samples_leaf": [
+      10,
+      100
+    ],
+    "l2_regularization": [
+      0.001,
+      10.0,
+      "log"
+    ]
+  },
+  "objective": "mean group-CV observation Top-1",
+  "startup_trials": 3,
+  "reason": "Tune the model with the highest mean trip-group CV Top-1 (or the --model given).",
+  "candidate_rows": 364992,
+  "observations": 45624
+}
